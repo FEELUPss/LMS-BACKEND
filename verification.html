@@ -72,10 +72,14 @@
             // Clear the input fields after successful verification
             emailInput.value = '';
             otpInput.value = '';
+            
+            statusMessage.id = 'verification-status';
             // Optionally, you can redirect the user to the login page here
         } else {
             statusMessage.textContent = 'Invalid OTP or email.';
             statusMessage.style.color = 'red';
+            
+            statusMessage.id = 'verification-failure';
         }
     } catch (error) {
         console.error('Error:', error);
