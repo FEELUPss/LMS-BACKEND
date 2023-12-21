@@ -132,3 +132,15 @@ cursor: pointer;
 position: absolute;
 top: 280px;
 }
+
+#verification-status {
+  margin-top: 65px; /* Adjust the margin as needed */
+  /* Add any other styling properties here */
+}
+
+#verification-failure {
+  margin-top: 70px; /* Adjust the margin as needed for failure */
+  /* Add any other styling properties for failure here */
+}
+
+
