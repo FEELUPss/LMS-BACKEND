@@ -735,7 +735,7 @@ tr {
   position: relative; /* Remove absolute positioning */
   margin-top: 3%;
   overflow-x: hidden; /* Enable horizontal scrolling on small screens */
-  margin-left: 4.5%;
+  margin-left: 0.3%;
 }
 
 #loanTablehistory thead {
@@ -807,7 +807,7 @@ tr {
   position: relative; /* Remove absolute positioning */
   margin-top: 3%;
   overflow-x: hidden; /* Enable horizontal scrolling on small screens */
-  margin-left: 4.5%;
+  margin-left: 0.3%;
 
 }
 
